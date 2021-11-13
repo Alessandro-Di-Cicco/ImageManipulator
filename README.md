@@ -66,7 +66,7 @@ In this section there are some example usages, taken from the `Images` directory
 ## Castle
 
 Input image
-[](https://github.com/Alessandro-Di-Cicco/ImageManipulator/Images/Castle/castle.jpg)
+[](https://github.com/Alessandro-Di-Cicco/ImageManipulator/blob/main/Images/Castle/castle.jpg?raw=true)
 
 Image blurred with a radius of 2
 [](Images\Castle\castle_blurred[x2].jpg)
