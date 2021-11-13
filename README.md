@@ -66,10 +66,10 @@ In this section there are some example usages, taken from the `Images` directory
 ## Castle
 
 Input image
-![](Images\Castle\castle.jpg)
+[](Images\Castle\castle.jpg)
 
 Image blurred with a radius of 2
-![](Images\Castle\castle_blurred[x2].jpg)
+[](Images\Castle\castle_blurred[x2].jpg)
 
 Outline computed from original and blurred
 ![](Images\Castle\castle_outline.jpg)
