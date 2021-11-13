@@ -23,7 +23,7 @@ Advanced filters are:
 
 There are three main components of the software
 
-* ByteImages
+* Bytehttps://github.com/Alessandro-Di-Cicco/ImageManipulator/blob/main/Images
 * ImageIterators
 * Filters
 
@@ -58,97 +58,97 @@ The base `Filter` type manages a series of mechanisms:
 * Defines the abstract `Application` method, which is applied to every pixel of the given image
 * Retrieves the appropriate iterator depending on the `forceSync` field, and then runs it, passing it the `Application` method
 
-The sub-types only override the `Application` method (besides fields and properties related to information and configuration), which receives, on every call, the input images and the coordinates of the pixel on which it was called.
+The sub-types only override the `Application` method (besides fields and properties related to information and configuration), which receives, on every call, the input https://github.com/Alessandro-Di-Cicco/ImageManipulator/blob/main/Images and the coordinates of the pixel on which it was called.
 
 # Examples
-In this section there are some example usages, taken from the `Images` directory.
+In this section there are some example usages, taken from the `https://github.com/Alessandro-Di-Cicco/ImageManipulator/blob/main/Images` directory.
 
 ## Castle
 
 Input image
-![](https://github.com/Alessandro-Di-Cicco/ImageManipulator/blob/main/Images/Castle/castle.jpg?raw=true)
+![](https://github.com/Alessandro-Di-Cicco/ImageManipulator/blob/main/https://github.com/Alessandro-Di-Cicco/ImageManipulator/blob/main/Images/Castle/castle.jpg?raw=true?raw=true)
 
 Image blurred with a radius of 2
-[](Images\Castle\castle_blurred[x2].jpg)
+![](https://github.com/Alessandro-Di-Cicco/ImageManipulator/blob/main/Images/Castle/castle_blurred[x2].jpg?raw=true)
 
 Outline computed from original and blurred
-![](Images\Castle\castle_outline.jpg)
+![](https://github.com/Alessandro-Di-Cicco/ImageManipulator/blob/main/Images/Castle/castle_outline.jpg?raw=true)
 
 Enhanced version computed from original and outline
-![](Images\Castle\castle_enhanced.jpg)
+![](https://github.com/Alessandro-Di-Cicco/ImageManipulator/blob/main/Images/Castle/castle_enhanced.jpg?raw=true)
 
 `Posterize` filter, applied to the enhanced image
-![](Images\Castle\castle_posterized.jpg)
+![](https://github.com/Alessandro-Di-Cicco/ImageManipulator/blob/main/Images/Castle/castle_posterized.jpg?raw=true)
 
 `VerticalStripesLight` filter, applied to the enhanced image
-![](Images\Castle\castle_striped.jpg)
+![](https://github.com/Alessandro-Di-Cicco/ImageManipulator/blob/main/Images/Castle/castle_striped.jpg?raw=true)
 
 `VerticalStripesNegative` fitler, applied to the enhanced image
-![](Images\Castle\castle_striped_neg.jpg)
+![](https://github.com/Alessandro-Di-Cicco/ImageManipulator/blob/main/Images/Castle/castle_striped_neg.jpg?raw=true)
 
 
 ## Landscape
 
 Input image
-![](Images\Landscape\input.jpg)
+![](https://github.com/Alessandro-Di-Cicco/ImageManipulator/blob/main/Images/Landscape/input.jpg?raw=true)
 
 Image blurred with a radius of 2
-![](Images\Landscape\input_blurred[x2].jpg)
+![](https://github.com/Alessandro-Di-Cicco/ImageManipulator/blob/main/Images/Landscape/input_blurred[x2].jpg?raw=true)
 
 Enhanced version computed from original and outline
-![](Images\Landscape\input_enhanced.jpg)
+![](https://github.com/Alessandro-Di-Cicco/ImageManipulator/blob/main/Images/Landscape/input_enhanced.jpg?raw=true)
 
 Saturated version, applied to the enhanced picture
-![](Images\Landscape\input_saturated.jpg)
+![](https://github.com/Alessandro-Di-Cicco/ImageManipulator/blob/main/Images/Landscape/input_saturated.jpg?raw=true)
 
 `VerticalStripesLight` filter, applied to the enhanced image
-![](Images\Landscape\input_striped.jpg)
+![](https://github.com/Alessandro-Di-Cicco/ImageManipulator/blob/main/Images/Landscape/input_striped.jpg?raw=true)
 
 `VerticalStripesNegative` fitler, applied to the enhanced image
-![](Images\Landscape\input_striped_neg.jpg)
+![](https://github.com/Alessandro-Di-Cicco/ImageManipulator/blob/main/Images/Landscape/input_striped_neg.jpg?raw=true)
 
 ## Skyline
 
 Input image
-![](Images\Skyline\skyline.jpg)
+![](https://github.com/Alessandro-Di-Cicco/ImageManipulator/blob/main/Images/Skyline/skyline.jpg?raw=true)
 
 Image blurred with a radius of 2
-![](Images\Skyline\skyline_blurred[x2].jpg)
+![](https://github.com/Alessandro-Di-Cicco/ImageManipulator/blob/main/Images/Skyline/skyline_blurred[x2].jpg?raw=true)
 
 Outline computed from original and blurred
-![](Images\Skyline\skyline_outline.jpg)
+![](https://github.com/Alessandro-Di-Cicco/ImageManipulator/blob/main/Images/Skyline/skyline_outline.jpg?raw=true)
 
 Enhanced version computed from original and outline
-![](Images\Skyline\skyline_enhanced.jpg)
+![](https://github.com/Alessandro-Di-Cicco/ImageManipulator/blob/main/Images/Skyline/skyline_enhanced.jpg?raw=true)
 
 `Posterize` filter, applied to the enhanced image
-![](Images\Skyline\skyline_posterized.jpg)
+![](https://github.com/Alessandro-Di-Cicco/ImageManipulator/blob/main/Images/Skyline/skyline_posterized.jpg?raw=true)
 
 `VerticalStripesLight` filter, applied to the enhanced image
-![](Images\Skyline\skyline_striped.jpg)
+![](https://github.com/Alessandro-Di-Cicco/ImageManipulator/blob/main/Images/Skyline/skyline_striped.jpg?raw=true)
 
 `VerticalStripesNegative` fitler, applied to the enhanced image
-![](Images\Skyline\skyline_striped_neg.jpg)
+![](https://github.com/Alessandro-Di-Cicco/ImageManipulator/blob/main/Images/Skyline/skyline_striped_neg.jpg?raw=true)
 
 ## Tevere
 
 Input image
-![](Images\Tevere\tevere.jpg)
+![](https://github.com/Alessandro-Di-Cicco/ImageManipulator/blob/main/Images/Tevere/tevere.jpg?raw=true)
 
 Image blurred with a radius of 2
-![](Images\Tevere\tevere_blurred[x2].jpg)
+![](https://github.com/Alessandro-Di-Cicco/ImageManipulator/blob/main/Images/Tevere/tevere_blurred[x2].jpg?raw=true)
 
 Outline computed from original and blurred
-![](Images\Tevere\tevere_outline.jpg)
+![](https://github.com/Alessandro-Di-Cicco/ImageManipulator/blob/main/Images/Tevere/tevere_outline.jpg?raw=true)
 
 Enhanced version computed from original and outline
-![](Images\Tevere\tevere_enhanced.jpg)
+![](https://github.com/Alessandro-Di-Cicco/ImageManipulator/blob/main/Images/Tevere/tevere_enhanced.jpg?raw=true)
 
 `Posterize` filter, applied to the enhanced image
-![](Images\Tevere\tevere_posterized.jpg)
+![](https://github.com/Alessandro-Di-Cicco/ImageManipulator/blob/main/Images/Tevere/tevere_posterized.jpg?raw=true)
 
 `VerticalStripesLight` filter, applied to the enhanced image
-![](Images\Tevere\tevere_striped.jpg)
+![](https://github.com/Alessandro-Di-Cicco/ImageManipulator/blob/main/Images/Tevere/tevere_striped.jpg?raw=true)
 
 `VerticalStripesNegative` fitler, applied to the enhanced image
-![](Images\Tevere\tevere_striped_neg.jpg)
+![](https://github.com/Alessandro-Di-Cicco/ImageManipulator/blob/main/Images/Tevere/tevere_striped_neg.jpg?raw=true)
