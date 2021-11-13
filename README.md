@@ -95,7 +95,7 @@ Input image
 Image blurred with a radius of 2
 ![](https://github.com/Alessandro-Di-Cicco/ImageManipulator/blob/main/Images/Landscape/input_blurred[x2].jpg?raw=true)
 
-Enhanced version computed from original and outline
+Enhanced version computed from original and outline, notice the higher contrast on the mountain peaks
 ![](https://github.com/Alessandro-Di-Cicco/ImageManipulator/blob/main/Images/Landscape/input_enhanced.jpg?raw=true)
 
 Saturated version, applied to the enhanced picture
